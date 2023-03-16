@@ -1,5 +1,3 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
-    <MyUILibrary.SlideToggle label="My Toggle" style="height: 42px;">
-        <Style src="SlideToggle.uss" />
-    </MyUILibrary.SlideToggle>
+    <MyUILibrary.SlideToggle label="My Toggle" />
 </ui:UXML>

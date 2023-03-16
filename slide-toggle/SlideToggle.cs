@@ -37,7 +37,7 @@ namespace MyUILibrary
             m_Input.style.unitySliceBottom = 1;
             m_Input.style.justifyContent = Justify.Center;
             m_Input.style.maxWidth = 30;
-            m_Input.style.maxHeight = 20;
+            m_Input.style.maxHeight = 16;
             m_Input.style.borderColor = Color.black;
             m_Input.style.borderBottomWidth = 1;
             m_Input.style.borderLeftWidth = 1;
@@ -59,10 +59,11 @@ namespace MyUILibrary
             m_Knob.AddToClassList(inputKnobUssClassName);
             m_Knob.name = "Knob";
             m_Knob.style.backgroundImage = new StyleBackground((Texture2D)UnityEditor.EditorGUIUtility.Load("pre slider thumb@2x"));
-            m_Knob.style.width = 16;
-            m_Knob.style.height = 16;
-            m_Knob.style.minHeight = 16;
-            m_Knob.style.top = new StyleLength(new Length(1,LengthUnit.Pixel));
+            m_Knob.style.width = 17;
+            m_Knob.style.height = 17;
+            m_Knob.style.minHeight = 17;
+            m_Knob.style.marginBottom = 1;
+            m_Knob.style.top = new StyleLength(new Length(3,LengthUnit.Pixel));
             m_Input.Add(m_Knob);
 
             // There are three main ways to activate or deactivate the SlideToggle. All three event handlers use the
